@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 client = pymongo.MongoClient(host='localhost', port=27017)
 db = client.seeedPM
-collection = db.testDB
+collection = db.commentsDB
 #product = 'Jetson Nano'
 
 data = pd.DataFrame(list(collection.find()))

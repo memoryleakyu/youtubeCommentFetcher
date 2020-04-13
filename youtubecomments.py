@@ -4,9 +4,9 @@ import time
 client = pymongo.MongoClient(host='localhost', port=27017)
 db = client.seeedPM
 #collection = db.youtubeComment
-collection = db.testDB
+collection = db.commentsDB
 
-videos = ["YLOUhaqkLqY","Dd-qqaIL-ko","4XV8dlFwNd0","lrP5T6LrkPQ"]
+videos = ["你需要的视频id"]
 
 
 header = {"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
